@@ -20,7 +20,6 @@ public class Homework extends SuperKarel {
         } else if (facingNorth()) {y_axis++;
         } else if (facingWest()) {x_axis--;
         } else {y_axis--;}
-        moves++;
         System.out.printf("moves: %d\n", moves);
     }
     @Override
